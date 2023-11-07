@@ -10,10 +10,13 @@
 
 ### Использование
 
-> ### python
-> ### Copy code
+> #### python
+> #### Copy code
+> 
 > n = 10  # Замените на желаемое значение n
+> 
 > result = fibonacci(n)
+> 
 > print(f"The {n}-th Fibonacci number is: {result}")
 
 ### 2. Проверка на палиндром
@@ -24,10 +27,15 @@
 > ### python
 > ### Copy code
 > n = 12321  # Замените на желаемое число для проверки
+> 
 > result = palindrome(n)
+> 
 > if result:
+> 
 >     print(f"{n} is a palindrome.")
+> 
 > else:
+> 
 >     print(f"{n} is not a palindrome.")
 
 ### 3. Генератор FizzBuzz вместо чисел кратных трём и пяти соответственно
@@ -38,7 +46,10 @@
 > ### python
 > ### Copy code
 > S = 1  # Начальное значение
+> 
 > N = 20  # Конечное значение
+> 
 > for result in fizz_buzz(S, N):
+> 
 >     print(result)
 При желании вы можете заменить значения n, S и N на свои собственные, чтобы выполнить соответствующие вычисления и проверки.
